@@ -1,6 +1,5 @@
 mod test_utils;
 
-use log::Level;
 use simple_func_timer::timer;
 
 #[timer(unit = "ns")]
