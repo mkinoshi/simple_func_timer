@@ -9,7 +9,7 @@ readme = "README.md"
 homepage = "https://github.com/mkinoshi/simple_func_timer"
 repository = "https://github.com/mkinoshi/simple_func_timer"
 keywords = ["timer", "rust", "performance"]
-categories = ["performance-measuring-utility"]
+categories = ["performance-utility"]
 autotests = false
 
 [lib]
