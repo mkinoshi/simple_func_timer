@@ -1,2 +1,25 @@
 # simple_func_timer
-Tiny macro to measure the function execution time in Rust
+Tiny macro to measure the function execution time in Rust. It uses `log` crate, so the consuming code can handle the log easily.
+
+## Examples
+You can measure the execution time of a function in the following way. Your client code needs to consume the log.
+```
+#[timer(unit = "ns", log = "info")]
+fn my_function() {
+}
+
+// It measures the execution time in milliseconds and generate `debug` level logs by default.
+#[timer]
+fn my_function() {
+}
+```
+
+## Contributing
+
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+Please make sure to update tests as appropriate. Enjoy!
+
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)
