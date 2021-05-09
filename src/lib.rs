@@ -9,8 +9,15 @@ const VALID_UNIT: [&str; 3] = ["ms", "ns", "s"];
 /// Macro to measure the execution time of a function.
 ///
 /// # Examples
+/// ```toml
+/// [dependencies]
+/// simple_func_timer = "0.1"
+/// log = "0.4"
+/// ```
 ///
 /// ```
+/// use simple_func_timer::timer;
+///
 /// #[timer(unit = "ns", log = "info")]
 /// fn my_function() {
 /// }
