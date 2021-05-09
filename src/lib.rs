@@ -6,7 +6,7 @@ use syn::{parse_macro_input, AttributeArgs, ItemFn, NestedMeta};
 const VALID_LOG_LEVELS: [&str; 4] = ["info", "warn", "error", "debug"];
 const VALID_UNIT: [&str; 3] = ["ms", "ns", "s"];
 
-/// Macro to measure the execution time of a function.
+/// Macro to measure the function execution time.
 ///
 /// # Examples
 /// ```toml
