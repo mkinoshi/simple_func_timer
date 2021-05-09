@@ -1,4 +1,8 @@
 # simple_func_timer
+![Rust](https://github.com/mkinoshi/simple_func_timer/actions/workflows/release.yml/badge.svg)
+[![Crates](https://img.shields.io/crates/v/simple_func_timer.svg)](https://crates.io/crates/simple_func_timer)
+[![Docs](https://docs.rs/simple_func_timer/badge.svg)](https://docs.rs/simple_func_timer)
+
 Tiny macro to measure the function execution time in Rust. It uses `log` crate, so the consuming code can handle the log easily.
 
 ## Examples
